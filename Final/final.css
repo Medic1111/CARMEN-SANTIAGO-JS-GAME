@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100vh;
+  max-width: 100%;
+  font-size: 62.5%;
+  background-color: rgba(7, 56, 40, 0.952);
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+body {
+  position: relative;
+}
+.header-style {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.2rem;
+  margin-bottom: 5%;
+}
+
+.text-section {
+  text-align: center;
+  padding: 2rem;
+  background-color: gray;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+.text-content {
+  margin-bottom: 1.5rem;
+}
+
+#text-content {
+  color: mediumvioletred;
+}
+.section-style {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1.7rem;
+  max-width: 80%;
+  min-width: 70%;
+  height: 60%;
+  margin-left: 10%;
+  border: solid 2px whitesmoke;
+  border-radius: 5px;
+}
+.btn-style {
+  width: 42%;
+  padding: 0.8rem;
+  border-radius: 600px;
+  margin: 3%;
+  height: 5rem;
+  background-color: rgb(166, 168, 14);
+  color: whitesmoke;
+  font-size: 2rem;
+  border: transparent;
+  font-family: "Press Start 2P", cursive;
+}
+.btn-style:hover {
+  color: rgb(166, 168, 14);
+  background-color: whitesmoke;
+}
+
+.a-style {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 1.5rem;
+}
+.section-style-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1.7rem;
+  max-width: 60%;
+  min-width: 50%;
+  height: 60%;
+  margin-left: 20%;
+  border: solid 2px whitesmoke;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+.footer-style {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+@media (max-width: 798px) {
+  html {
+    font-size: 53.5%;
+  }
+  .header-style {
+    font-size: 2rem;
+  }
+  .btn-style {
+    width: 50vw;
+    height: 5rem;
+  }
+  .footer-style {
+    text-align: center;
+  }
+  .section-style-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1.7rem;
+    width: 80vw;
+    height: 20vh;
+  }
+}

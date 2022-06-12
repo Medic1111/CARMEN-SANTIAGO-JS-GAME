@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../gamePlay.css" />
+
+    <script defer src="novo.js"></script>
+    <title>Game</title>
+  </head>
+  <body id="body">
+    <header class="header-style">
+      <h1>Mission one</h1>
+      <p class="p-warrant">Warrant: <span id="warrantIssued"></span></p>
+    </header>
+
+    <section id="modal" class="hidden">
+      <section id="modalBox" class="modal">
+        <p>List of villains</p>
+        <div class="grid">
+          <ul class="ul-style">
+            <button id="madalena" class="warrantBtn">Warrant</button>
+            <p class="p-villain">Martha</p>
+            <li class="li-style">Female</li>
+            <li class="li-style">Dark</li>
+            <li class="li-style">Belt</li>
+            <li class="li-style">Classic</li>
+          </ul>
+
+          <ul class="ul-style">
+            <button id="luisa" class="warrantBtn">Warrant</button>
+            <p class="p-villain">Luisa</p>
+            <li class="li-style">Female</li>
+            <li class="li-style">ligh</li>
+            <li class="li-style">Belt</li>
+            <li class="li-style">Classic</li>
+          </ul>
+
+          <ul class="ul-style">
+            <button id="diane" class="warrantBtn">Warrant</button>
+
+            <p class="p-villain">Diane</p>
+            <li class="li-style">Female</li>
+            <li class="li-style">Dark</li>
+            <li class="li-style">Hat</li>
+            <li class="li-style">Classic</li>
+          </ul>
+
+          <ul class="ul-style">
+            <button id="bruna" class="warrantBtn">Warrant</button>
+
+            <p class="p-villain">Bruna</p>
+            <li class="li-style">Female</li>
+            <li class="li-style">Light</li>
+            <li class="li-style">Hat</li>
+            <li class="li-style">Sport</li>
+          </ul>
+          <ul class="ul-style">
+            <button id="vinicius" class="warrantBtn">Warrant</button>
+
+            <p class="p-villain">Vinicius</p>
+            <li class="li-style">Male</li>
+            <li class="li-style">Dark</li>
+            <li class="li-style">Belt</li>
+            <li class="li-style">Classic</li>
+          </ul>
+          <ul class="ul-style">
+            <button id="marcus" class="warrantBtn">Warrant</button>
+
+            <p class="p-villain">Marcus</p>
+            <li class="li-style">Male</li>
+            <li class="li-style">Light</li>
+            <li class="li-style">Belt</li>
+            <li class="li-style">Classic</li>
+          </ul>
+          <ul class="ul-style">
+            <button id="tiago" class="warrantBtn">Warrant</button>
+
+            <p class="p-villain">Tiago</p>
+            <li class="li-style">Male</li>
+            <li class="li-style">Dark</li>
+            <li class="li-style">Hat</li>
+            <li class="li-style">Sport</li>
+          </ul>
+          <ul class="ul-style">
+            <button id="renato" class="warrantBtn">Warrant</button>
+
+            <p class="p-villain">Renato</p>
+            <li class="li-style">Male</li>
+            <li class="li-style">Light</li>
+            <li class="li-style">Hat</li>
+            <li class="li-style">Sport</li>
+          </ul>
+        </div>
+        <button id="modal-close" class="btn-style close">Close</button>
+      </section>
+    </section>
+    <section class="text-section">
+      <p id="text-content">The clues will come here</p>
+    </section>
+    <main class="main-style">
+      <section id="places" class="section-style">
+        <button id="hotel" class="btn-style">Hotel</button>
+        <button id="bank" class="btn-style">Bank</button>
+        <button id="airport" class="btn-style">Airport</button>
+        <button id="museum" class="btn-style">Museum</button>
+        <button id="library" class="btn-style">Library</button>
+        <button id="warrant-btn" class="btn-style warrant">Warrant</button>
+
+        <a
+          href="/game1limpo/novo.html"
+          id="restart-btn"
+          class="btn-style restart hidden a-style"
+          >Restart</a
+        >
+
+        <a
+          href="/game2limpo/game2.html"
+          id="next-btn"
+          class="btn-style next hidden a-style"
+          >Next</a
+        >
+      </section>
+      <section id="warrant" class="section2-style">
+        <div class="list-div">
+          <p class="p-style">Gender</p>
+          <input type="checkbox" name="female" id="female" />
+          <span class="female">Female</span>
+          <br />
+          <input type="checkbox" name="male" id="male" />
+          <span class="male">Male</span>
+        </div>
+        <div class="list-div">
+          <p class="p-style">Hair</p>
+          <input type="checkbox" name="female" id="female" />
+          <span class="dark">Dark</span>
+          <br />
+          <input type="checkbox" name="male" id="male" />
+          <span class="male">Light</span>
+        </div>
+        <div class="list-div">
+          <p class="p-style">Accessories</p>
+          <input type="checkbox" name="female" id="female" />
+          <span class="female">Belt</span>
+          <br />
+          <input type="checkbox" name="male" id="male" />
+          <span class="male">Hat</span>
+        </div>
+        <div class="list-div">
+          <p class="p-style">Vehicle</p>
+
+          <input type="checkbox" name="female" id="female" />
+          <label for="female" class="female">Sport</label>
+          <br />
+          <input type="checkbox" name="male" id="male" />
+          <span class="male">Classic</span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100vh;
+  max-width: 100vw;
+  font-size: 62.5%;
+  font-family: "Press Start 2P", cursive;
+}
+body {
+  background-color: rgba(7, 56, 40, 0.952);
+  color: white;
+  height: inherit;
+  width: inherit;
+}
+
+/* Welcome Page: UserName */
+
+.header-style {
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5vw;
+  font-size: 3rem;
+  margin-bottom: 5vh;
+}
+.p-style {
+  max-width: 90vw;
+  font-size: 1.8rem;
+  line-height: 2;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+.main-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+}
+.input-style {
+  font-size: 2.5rem;
+  color: rgb(99, 97, 97);
+  outline: none;
+  border: transparent;
+  border-radius: 3px;
+  padding-left: 0.25vw;
+  height: 5vh;
+}
+.btn-confirm {
+  padding: 1vh 2vw;
+  background-color: rgb(63, 85, 23);
+  color: white;
+  font-size: 1.8em;
+  border: transparent;
+  height: 5vh;
+  width: 30vw;
+  border-radius: 3px;
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 1px;
+}
+.a-style {
+  display: inline-block;
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(63, 85, 23);
+  color: white;
+  font-size: 1.5rem;
+  border: transparent;
+  width: 25%;
+  margin-top: 5%;
+  border-radius: 5px;
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 1px;
+}
+.a-style:hover {
+  color: gray;
+}
+.btn-confirm:hover {
+  background-color: white;
+  color: gray;
+}
+.hidden {
+  display: none;
+}
