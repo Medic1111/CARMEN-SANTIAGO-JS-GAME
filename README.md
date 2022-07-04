@@ -2,6 +2,12 @@
 
 - My very first JS project. Game that resembles the classic 'Where in the world is Carmen Sandiego' game. (I have no rights over Carmen Sandiego)
 
+[Live here](https://carmen-santiago.netlify.app/)
+
+![Image of gameplay](game.png)
+
+![Image of warrant list options](villain.png)
+
 # TECH:
 
 [TRIAD]: HTML, CSS, JS
